@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="logo.png" alt="Logo" width="80">
+        </div>
+        <nav class="nav">
+            <a href="#converter-section">Home</a>
+            <a href="#features-section">Features</a>
+            <a href="#about-section">About</a>
+        </nav>
+    </header>
+
+    <section id="converter-section" class="converter-section">
+        <div class="converter-container">
+            <h1>🌍 Currency Converter</h1>
+            <p>Quickly convert currencies in real time with up-to-date exchange rates.</p>
+            <div class="form-group">
+                <label for="amount">💵 Amount (USD):</label>
+                <input type="number" id="amount" placeholder="Enter USD amount">
+            </div>
+            <div class="form-group">
+                <label for="currency">💱 Convert to:</label>
+                <select id="currency"></select>
+            </div>
+            <button id="convert-btn">Convert 💸</button>
+            <div id="result"></div>
+        </div>
+    </section>
+
+    <section id="features-section" class="features-section">
+        <h2>Key Features</h2>
+        <div class="features">
+            <div class="feature">
+                <img src="realtime.png" alt="Real-time rates">
+                <h3>Real-Time Rates</h3>
+                <p>Get the most accurate and updated exchange rates.</p>
+            </div>
+            <div class="feature">
+                <img src="responsive.png" alt="Responsive">
+                <h3>Responsive Design</h3>
+                <p>Optimized for mobile, tablet, and desktop devices.</p>
+            </div>
+            <div class="feature">
+                <img src="secure.png" alt="Secure">
+                <h3>Secure</h3>
+                <p>We ensure your data privacy and security.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about-section" class="about-section">
+        <h2>About Us</h2>
+        <p>We aim to simplify currency conversion with an intuitive and interactive interface.</p>
+        <p>Powered by reliable exchange rate APIs, we deliver accurate results every time.</p>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Currency Converter | All Rights Reserved</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
